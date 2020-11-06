@@ -3,42 +3,42 @@
         {
             "id":"1",
             "title":"Dummy Product 1",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 1",
             "price":19
         },
         {
             "id":"2",
             "title":"Dummy Product 2",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 2",
             "price":19
         },
         {
             "id":"3",
             "title":"Dummy Product 3",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 3",
             "price":19
         },
         {
             "id":"4",
             "title":"Dummy Product 4",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 4",
             "price":19
         },
         {
             "id":"5",
             "title":"Dummy Product 5",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 5",
             "price":19
         },
         {
             "id":"6",
             "title":"Dummy Product 6",
-            "image":"/images/hero1.png",
+            "image":"/images/cell_img.jpeg",
             "desctipption":"Information  About Dummpy Product 6",
             "price":19
         }
