@@ -1,4 +1,4 @@
-
+import data from './data.json'
 //feture-1 brancch created by me
 // all applause for me
 function App() {
