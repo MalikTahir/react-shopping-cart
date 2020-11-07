@@ -5,7 +5,7 @@ function Products({products1}) {
     return (
         <div>
             <ul className="products">
-                {products && products.map((product)=>{
+                {products1 && products1.map((product)=>{
                     return(
                         <li key={product.id}>
                         <div className="product">
