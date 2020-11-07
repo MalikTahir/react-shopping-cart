@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function Products({products1}) {
+function Products({products1,addToCart}) {
     const [products,setProducts] = useState(products1)
     return (
         <div>
@@ -16,7 +16,7 @@ function Products({products1}) {
                         </div>
                         <div className="product-price">
                             <div>{product.price}</div>
-                            <button className="button primary ">Add To Cart</button>
+                            <button onClick={()=>addToCart(product)} className="button primary ">Add To Cart</button>
                         </div>
                     </li>
                     )
