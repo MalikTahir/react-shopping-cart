@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import Fade from 'react-reveal/Fade'
 function Cart({cartItems,removeFromCart,orders}) {
     const [showCheckout,setCheckout] = useState(false);
     const [bName,setName] = useState("b name")
@@ -29,6 +29,7 @@ function Cart({cartItems,removeFromCart,orders}) {
             <div className="cart cart-header">You have {cartItems.length} items in your cart</div>}
             <div className="cart">
                 <div>
+                    <Fade left cascade>
                 <ul className="cart-items">
                     {cartItems.map((item)=>{
                         return(
@@ -51,7 +52,7 @@ function Cart({cartItems,removeFromCart,orders}) {
                         )
                     })}
                 </ul>
-
+                </Fade>
                 {cartItems.length !==0 &&
                 
                 <div className="cart">
@@ -64,6 +65,7 @@ function Cart({cartItems,removeFromCart,orders}) {
                 </div>
                 }
                 {showCheckout && (
+                    <Fade right cascade>
                     <div className="cart">
                         <form onSubmit={()=>createOrder()}>
                             <ul className="form-container">
@@ -85,6 +87,7 @@ function Cart({cartItems,removeFromCart,orders}) {
                             </ul>
                         </form>
                     </div>
+                    </Fade>
                 )}
                     
                     </div>
